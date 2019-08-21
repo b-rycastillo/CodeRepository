@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+     <style>
+        body {
+            font-family: "Trebuchet MS", Helvetica, sans-serif;
+            color: Black;
+        }
+        .flex-container {
+            display: flex;
+            justify-content: center;
+            //background-color: Black;
+            flex-wrap: wrap;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        .flexers:hover {
+            background-color: #7a7158;
+            color: white;
+        }
+        .flexers{
+            background-color: #236FAA;
+            width: 300px;
+            margin: 10px;
+            text-align: center;
+            line-height: 150px;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 8px;
+            box-shadow: 2px 2px 2px #999;
+            display: inline-block;
+        }
+        .flexer {
+            position: relative;
+            display: inline-block;
+            }
+        .flexer .tooltiptext {
+            visibility: hidden;
+            min-width: 180px;
+            color: #fff;
+            margin-left: -160px;
+            text-align: center;
+            border-radius: 6px;
+            position: absolute;
+            bottom: 110%;
+            max-height: 10px;
+            /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+            opacity: 0;
+            transition: opacity 1s;
+        }
+        .flexer:hover .tooltiptext {
+            visibility: visible;
+            opacity: 1;
+        }
+        .flexe {
+            position: relative;
+            display: inline-block;
+            background-color: #236FAA;
+            width: 300px;
+            margin: 10px;
+            text-align: center;
+            line-height: 150px;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 8px;
+            box-shadow: 2px 2px 2px #999;
+        }
+        .flexe .tooltiptext {
+            visibility: hidden;
+            min-width: 180px;
+            color: #fff;
+            margin-left: -165px;
+            text-align: center;
+            border-radius: 6px;
+            position: absolute;
+            bottom: 110%;
+            max-height: 10px;
+            /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+            opacity: 0;
+            transition: opacity 1s;
+        }
+        .flexe:hover .tooltiptext {
+            visibility: visible;
+            opacity: 1;
+        }
+        .flexe:hover {
+            background-color: #7a7158;
+            color: white;
+        }
+    </style>
+</head>
+    <body>
+        <div style="margin-top:2em; ">
+            <h1 style="text-align: center;">Code Repository</h1>
+        </div>
+        <div style="margin-top:3em;" class="flex-container">
+            <div class="flexe">
+                <small> Login Authorization <i class='fas fa-door-open' style='font-size:24px'></i> </small>
+                <span class="tooltiptext"><p style="margin-top: -30px;"><a style = "color:white;" href="low.html">Low</a> - <a style="color:white;" href="medium.html">Medium</a> - <a style = "color:white;" href="high.html">High</a></p></span>
+            </div>
+            <div class="flexe">
+                2nd Example
+                <span class="tooltiptext"><p style="margin-top: -30px; margin-left: 2em;"><a style="color:white;" class="hova" href="low.html">Low</a> - <a style="color:white;" href="medium.html">Medium</a> - <a style="color:white;" href="high.html">High</a></p></span>
+            </div>
+            <div class="flexe">
+                3rd Example
+                <span class="tooltiptext"><p style="margin-top: -30px; margin-left: 2em;"><a style="color:white;" href="low.html">Low</a> - <a style="color:white;" href="medium.html">Medium</a> - <a style="color:white;" href="high.html">High</a></p></span>
+            </div>
+            <div class="flexe">
+                4th Example
+                <span class="tooltiptext"><p style="margin-top: -30px; margin-left: 2em;"><a style="color:white;" href="low.html">Low</a> - <a style="color:white;" href="medium.html">Medium</a> - <a style="color:white;" href="high.html">High</a></p></span>
+            </div>                  
+            <div class="flexe">
+                5th Example
+                <span class="tooltiptext"><p style="margin-top: -30px; margin-left: 2em;"><a style="color:white;" href="low.html">Low</a> - <a style="color:white;" href="medium.html">Medium</a> - <a style="color:white;" href="high.html">High</a></p></span>
+            </div>
+            <div class="flexe">
+                6th Example
+                <span class="tooltiptext"><p style="margin-top: -30px; margin-left: 2em;"><a style="color:white;" href="low.html">Low</a> - <a style="color:white;" href="medium.html">Medium</a> - <a style="color:white;" href="high.html">High</a></p></span>
+            </div>
+            <div class="flexe">
+                6th Example
+                <span class="tooltiptext"><p style="margin-top: -30px; margin-left: 2em;"><a style="color:white;" href="low.html">Low</a> - <a style="color:white;" href="medium.html">Medium</a> - <a style="color:white;" href="high.html">High</a></p></span>
+            </div>
+        </div>
+    </body>
+</html>
